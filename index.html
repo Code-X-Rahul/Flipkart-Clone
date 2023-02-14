@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/1abd9bb6e7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="resposnsive.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="logos">
+            <img src="LOGO/logo.png" alt="flipkart LOGO" class="logo">
+            <p class="xplore">Explore <i class="strong">Plus+</i></p>
+        </div>
+        <div class="search-section">
+            <div class="sb">
+                <input type="text" placeholder="Search For Products,brands and more" class="search-box">
+                <ion-icon class="ssvg" name="search"></ion-icon>
+            </div>
+            <div class="login-div">
+                <button class="login">Login</button>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="more">
+                <P class="text">Become a Seller</P>
+            </div>
+            <div class="more hover">
+                <p class="text">More</p>
+                <div class="none">
+                    <div class="and-more">
+                        <p class="hidden"><ion-icon class="icns" name="notifications"></ion-icon>Notofication
+                            Preferences</p>
+                        <p class="hidden"><ion-icon class="icns" name="at"></ion-icon>24x7 Customer Care</p>
+                        <p class="hidden"><ion-icon class="icns" name="trending-up-outline"></ion-icon>Advertise</p>
+                        <p class="hidden"><ion-icon class="icns" name="cloud-download-outline"></ion-icon>Download App
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="more">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <p class="text">cart</p>
+            </div>
+        </div>
+    </header>
+    <div class="box">
+        <section class="categories">
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/1.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Grocery</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/2.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Mobiles</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/3.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Fashion</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/4.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Electronics</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/5.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Home</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/6.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Appliances</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/7.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Travel</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/8.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Top Offer</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/9.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Beauty, Toys & More</P>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="icons">
+                    <img src="PICS/10.webp" alt="" class="pics">
+                </div>
+                <div class="icon-name">
+                    <P class="name">Two Wheelers</P>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="slider">
+        <!-- <div class="img-container"> -->
+            <img id="sliderImage1" src="slider images/2.webp" alt="" class="slider-images">
+            <!-- <img id="sliderImage2" src="slider images/5" alt="" class="slider-images">
+            <img id="sliderImage3" src="slider images/6" alt="" class="slider-images"> -->
+        <!-- </div> -->
+        <button onclick="changePreviousimage()" id="btn-1" class="previous"><ion-icon name="chevron-back-outline"
+                onclick="slideImage()"><ion-icon></button>
+        <button onclick="changeNextimage()" id="btn-2" class="next"><ion-icon
+                name="chevron-forward-outline"><ion-icon></button>
+    </div>
+    <main>
+        <div class="card">
+            <div class="left bg-change1">
+                <div class="heading">
+                    <h2>Best of Electronics</h2>
+                    <div class="view">
+                        <button class="btn">VIEW ALL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/02.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Top Deals of Camera Accessori...</p>
+                </div>
+                <div class="price">
+                    <p>Shop Now!</p>
+                </div>
+                <div class="more-details">
+                    <p>Tripods,Gimbals,Bags...</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/03.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Top Deals of Camera Accessories</p>
+                </div>
+                <div class="price">
+                    <p>Shop Now!</p>
+                </div>
+                <div class="more-details">
+                    <p>Tripods,Gimbals,Bags...</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/04.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Printers</p>
+                </div>
+                <div class="price">
+                    <p>From ₹3999</p>
+                </div>
+                <div class="more-details">
+                    <p>HP</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/05.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Top Mirrorless Cameras</p>
+                </div>
+                <div class="price">
+                    <p>Shop Now!</p>
+                </div>
+                <div class="more-details">
+                    <p>Canon, Sony, Fujifilm...</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/06.webp" alt="">
+                </div>
+                <div class="details">
+                    <p> Monitor</p>
+                </div>
+                <div class="price">
+                    <p>From ₹8279</p>
+                </div>
+                <div class="more-details">
+                    <p>DELL</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/07.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Best of Hair Dryers</p>
+                </div>
+                <div class="price">
+                    <p>From ₹499</p>
+                </div>
+                <div class="more-details">
+                    <p>realme, Philips & more</p>
+                </div>
+            </div>
+            <button class="next-btn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        </div>
+        <div class="card">
+            <div class="left bg-change2">
+                <div class="heading">
+                    <h2>Beauty, Food, Toys & more</h2>
+                    <div class="view">
+                        <button class="btn">VIEW ALL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/11.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Cricket, Football & More</p>
+                </div>
+                <div class="price">
+                    <p>Up to 70% Off</p>
+                </div>
+                <div class="more-details">
+                    <p>Ceat, Nivia, Li-Ning...</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/12.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Premium Cycle</p>
+                </div>
+                <div class="price">
+                    <p>Up to 70% Off</p>
+                </div>
+                <div class="more-details">
+                    <p>Montra</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/13.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Premium Footballs</p>
+                </div>
+                <div class="price">
+                    <p>Up to 60% Off</p>
+                </div>
+                <div class="more-details">
+                    <p>HP</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/14.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Studio Headphones</p>
+                </div>
+                <div class="price">
+                    <p>Up to 80% off</p>
+                </div>
+                <div class="more-details">
+                    <p>Explore Now!</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/15.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Premium Non-Geared Cycles</p>
+                </div>
+                <div class="price">
+                    <p>Up to 40% Off Hercules</p>
+                </div>
+                <div class="more-details">
+                    <p>Hero & More</p>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/16.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Tricycles & Rideons</p>
+                </div>
+                <div class="price">
+                    <p>Up to 70% Off</p>
+                </div>
+                <div class="more-details">
+                    <p>Figurines, Battle Toys & more</p>
+                </div>
+            </div>
+            <button class="next-btn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        </div>
+        <div class="card">
+            <div class="left">
+                <div class="heading">
+                    <h2>Shop for Your Valentine</h2>
+                    <div class="view">
+                        <button class="btn">VIEW ALL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/19.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Wearable Smart Devices</p>
+                </div>
+                <div class="price">
+                    <p>Min. 40% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>Tripods,Gimbals,Bags...</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/20.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Handbags</p>
+                </div>
+                <div class="price">
+                    <p>Min.70% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>Tripods,Gimbals,Bags...</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/21.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Sunglasses</p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>HP</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/22.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Artificial Jewellery</p>
+                </div>
+                <div class="price">
+                    <p>Min. 70% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>Canon, Sony, Fujifilm...</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/23.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Lipstick </p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>DELL</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/24.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Wrist Watches</p>
+                </div>
+                <div class="price">
+                    <p>Min. 90% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>realme, Philips & more</p>
+                </div> -->
+            </div>
+            <button class="next-btn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        </div>
+        <div class="card">
+            <div class="left">
+                <div class="heading">
+                    <h2>Shop Monthly Essentials</h2>
+                    <div class="view">
+                        <button class="btn">VIEW ALL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/31.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Makeup</p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>Tripods,Gimbals,Bags...</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/32.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Body And Face Care</p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>Tripods,Gimbals,Bags...</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/33.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Fragrances</p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>HP</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/34.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Shaving & Beard Care</p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>Canon, Sony, Fujifilm...</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/35.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Baby Diapers</p>
+                </div>
+                <div class="price">
+                    <p>Min. 30% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>DELL</p>
+                </div> -->
+            </div>
+            <div class="rest">
+                <div class="tn">
+                    <img src="thumbnails/36.webp" alt="">
+                </div>
+                <div class="details">
+                    <p>Car Air Fresheners</p>
+                </div>
+                <div class="price">
+                    <p>Min. 50% Off</p>
+                </div>
+                <!-- <div class="more-details">
+                    <p>realme, Philips & more</p>
+                </div> -->
+            </div>
+            <button class="next-btn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/index.js"></script>
+    <!-- <script src="try.js"></script> -->
+
+</body>
+
+</html>
